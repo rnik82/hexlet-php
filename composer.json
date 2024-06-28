@@ -1,0 +1,16 @@
+{
+    "name": "roman/hexlet-php",
+    "description": "package for testing",
+    "autoload": {
+        "psr-4": {
+            "Roman\\HexletPhp\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Roman",
+            "email": "rnik82@mail.ru"
+        }
+    ],
+    "require": {}
+}
