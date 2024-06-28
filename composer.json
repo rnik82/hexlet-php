@@ -2,6 +2,9 @@
     "name": "roman/hexlet-php",
     "description": "package for testing",
     "autoload": {
+    	"files": [
+            "src/Runner.php"
+        ],
         "psr-4": {
             "Roman\\HexletPhp\\": "src/"
         }
@@ -12,5 +15,14 @@
             "email": "rnik82@mail.ru"
         }
     ],
-    "require": {}
+     "scripts": {
+    "phpcs": "phpcs",
+    "phpcbf": "phpcbf"
+    },
+    "require": {
+        "illuminate/collections": "^11.13"
+    },
+    "require-dev": {
+        "squizlabs/php_codesniffer": "^3.10"
+    }
 }
